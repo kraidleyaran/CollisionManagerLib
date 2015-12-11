@@ -2,6 +2,6 @@
 {
     public enum CollisionConditionType
     {
-        Object, Direction
+        Object
     }
 }

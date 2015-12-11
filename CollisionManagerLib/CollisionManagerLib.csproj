@@ -41,10 +41,9 @@
   <ItemGroup>
     <Compile Include="CollisionManager.cs" />
     <Compile Include="Conditons\Colliding.cs" />
-    <Compile Include="Conditons\CollidingCondition.cs" />
     <Compile Include="Conditons\CollisionConditionType.cs" />
     <Compile Include="Conditons\Direction.cs" />
-    <Compile Include="Conditons\DirectionCondition.cs" />
+    <Compile Include="Conditons\CollidingCondition.cs" />
     <Compile Include="Conditons\ICollisionCondition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
