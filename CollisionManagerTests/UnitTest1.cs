@@ -34,6 +34,7 @@ namespace CollisionManagerTests
             Assert.IsTrue(collisionManager.EvaluateCondition(condition));
 
             collisionManager.CollisionEngine.Move("test object 2", new Vector2(7, 7));
+            collisionManager.CollisionEngine.Update();
             Assert.IsFalse(collisionManager.EvaluateCondition(condition));
         }
 

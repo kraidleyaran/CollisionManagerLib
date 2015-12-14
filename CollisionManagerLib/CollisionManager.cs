@@ -82,7 +82,7 @@ namespace CollisionManagerLib
 
         private bool EvaluateCollidingCondition(CollidingCondition condition)
         {
-            CollisionResponse response = CollisionEngine.CheckCollision(condition.FirstObject, condition.SecondObject);
+            CollisionResponse response = CollisionEngine.CheckCollisionResponse(condition.FirstObject, condition.SecondObject);
             switch (condition.Colliding)
             {
                 case Colliding.No:
